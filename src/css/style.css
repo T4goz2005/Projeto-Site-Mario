@@ -1,0 +1,151 @@
+body {
+  font-family: "Poppins";
+  font-weight: bold;
+  font-size: 100%;
+  color: #fff;
+}
+
+img {
+  max-width: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*Fundo-Animado*/
+.fundo-video {
+  background-color: #d5011d;
+  position: absolute;
+  z-index: -1;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.fundo-video .video {
+  height: 100vh;
+}
+
+.fundo-video::after {
+  content: "";
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgb(0, 0, 0);
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 8%,
+    rgba(0, 0, 0, 0.7786666666666666) 50%,
+    rgba(0, 0, 0, 1) 88%
+  );
+}
+
+/*Fundo-Animado*/
+
+/*Cabeçalho*/
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  margin: 0 auto;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* @media (max-width: 624px) {
+    .cabecalho {
+      justify-content: center;
+    }
+  
+    .cabecalho .logo {
+      margin-bottom: 30px;
+    }
+  
+    .cabecalho .menu .item a {
+      font-size: calc(0.6em + 1vw);
+    }
+  } */
+
+.cabecalho .logo {
+  align-items: center;
+  width: 80px;
+  margin: 20px;
+  padding-left: 20px;
+}
+
+.cabecalho .menu {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  text-transform: uppercase;
+}
+
+.cabecalho .menu .item {
+  margin: 20px;
+  font-size: 20px;
+  transition: 0.5s ease-in-out;
+}
+
+.cabecalho .menu .item:hover {
+  transform: scale(1.1);
+}
+
+.cabecalho .navegacao .menu a {
+  padding: 10px 20px;
+  border-radius: 50px;
+  font-size: 25px;
+  color: #fff;
+  transition: 0.5s ease-in-out;
+}
+
+.cabecalho .navegacao .menu a:hover {
+  color: #fff;
+  background-color: #d5011d;
+}
+
+/*Cabeçalho*/
+
+/*Conteudo Principal*/
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  height: calc(100vh - 187px);
+  padding: 0 30px 30px;
+}
+
+.container .imagem-titulo {
+  max-width: 500px;
+}
+
+.container .descricao {
+  color: #a8adb7;
+  width: 85%;
+  font-size: 18px;
+  margin: 30px 0;
+}
+
+.container .btn-trailer {
+  background-color: #d5011d;
+  color: #fff;
+  padding: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: none;
+  transition: 0.5s ease-in-out;
+}
+
+.container .btn-trailer:hover {
+  transform: scale(1.1);
+}
+
+/*Conteudo Principal*/
