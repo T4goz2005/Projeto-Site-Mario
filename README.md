@@ -1,8 +1,19 @@
-✨ Projeto Super Mario Landing Page 
+<h1>✨ Projeto Super Mario-Bross </h1>
 
-Estudo basico sobre: HTML, CSS E JS Feito por Thiago Luiz Pedrero
-Nivel: intermediario 
+<h2>Status: Ativo </h2>
 
-Projeto com base na semana MapaDev week (Dev em dobro)
+<p>Nesse exemplo é apresentado uma amostra de conteudo relacionado;</p>
 
-✨
+<h2>Tecnologias usadas: </h2>
+
++ HTML5
++ CSS3
++ JavaScript
+
+<h2>Oque eu apreendi com esse projeto? </h2>
+
++ Estrutura de Design muito usada hoje em dia;
++ Estruta De html bem rafatorada;
++ Função com JavaScript Rapida e facil;
+
+<center><img src = ""></center>
